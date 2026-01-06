@@ -1,0 +1,40 @@
+# -------------------------
+# Core dependencies
+# -------------------------
+torch==2.1.0
+torchaudio==2.1.0
+torchvision==0.16.0
+
+# -------------------------
+# Transformers and Models
+# -------------------------
+transformers==4.45.1
+tqdm==4.66.4
+pillow==10.3.0
+sentencepiece==0.2.0
+protobuf==5.27.2
+accelerate==0.33.0
+safetensors==0.4.4
+peft==0.12.0
+
+# -------------------------
+# Qwen / LLaVA dependencies
+# -------------------------
+qwen-vl-utils==0.0.8
+
+# -------------------------
+# Common utilities
+# -------------------------
+numpy>=1.26.0
+argparse
+regex
+requests
+einops
+scipy
+jsonlines
+
+# -------------------------
+# Optional (for fine-tuning / visualization)
+# -------------------------
+matplotlib
+pandas
